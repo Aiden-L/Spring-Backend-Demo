@@ -3,6 +3,8 @@
 #### 介绍
 SpringBoot适用于API后端开发的demo，数据库支持使用MyBatis，项目管理采用Maven
 
+项目包括基本配置，拿到即可使用的项目结构，包括GET，POST两种接口常见请求方式demo
+
 #### 软件架构
 * SpringBoot
 * MyBatis
