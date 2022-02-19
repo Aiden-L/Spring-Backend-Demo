@@ -4,34 +4,25 @@
 SpringBoot适用于API后端开发的demo，数据库支持使用MyBatis，项目管理采用Maven
 
 #### 软件架构
-软件架构说明
+* SpringBoot
+* MyBatis
+* FastJSON
 
+#### Dependencies
+* jdk~=1.8
+* maven~=3.6
+* MySQL
 
 #### 安装教程
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1. 进入`pop.xml`安装需要的包
+2. [进入`application.yaml`配置文件修改mysql配置](src/main/resources/application.yaml)
+```yaml
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/yespaper  # 远程连接地址和库名，如本地连接，只需修改“yespaper”为想连接库名即可
+    username: root  # 你连接数据库用的用户名
+    password: root  # 你连接数据库用的密码
+```
+3. 运行`WebApplication.java`
 
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)

@@ -74,34 +74,23 @@
             <artifactId>fastjson</artifactId>
             <version>1.2.73</version>
         </dependency>
-        <!--    水印    -->
-        <dependency>
-            <groupId>com.itextpdf</groupId>
-            <artifactId>itextpdf</artifactId>
-            <version>5.4.3</version>
-        </dependency>
-        <dependency>
-            <groupId>com.itextpdf</groupId>
-            <artifactId>itext-asian</artifactId>
-            <version>5.2.0</version>
-        </dependency>
 
     </dependencies>
 
     <build>
         <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-                <configuration>
-                    <excludes>
-                        <exclude>
-                            <groupId>org.projectlombok</groupId>
-                            <artifactId>lombok</artifactId>
-                        </exclude>
-                    </excludes>
-                </configuration>
-            </plugin>
+<!--            <plugin>-->
+<!--                <groupId>org.springframework.boot</groupId>-->
+<!--                <artifactId>spring-boot-maven-plugin</artifactId>-->
+<!--                <configuration>-->
+<!--                    <excludes>-->
+<!--                        <exclude>-->
+<!--                            <groupId>org.projectlombok</groupId>-->
+<!--                            <artifactId>lombok</artifactId>-->
+<!--                        </exclude>-->
+<!--                    </excludes>-->
+<!--                </configuration>-->
+<!--            </plugin>-->
         </plugins>
     </build>
 
